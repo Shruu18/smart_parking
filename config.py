@@ -5,7 +5,8 @@ Edit these values to match your camera setup.
 
 # --- Video / camera source ---
 # 0 = default webcam, 1/2/... = other connected cameras,
-# a file path = recorded video, or an RTSP/IP camera URL.
+# a file path = recorded video (put test videos in samples/, e.g.
+# "samples/parking_demo.mp4"), or an RTSP/IP camera URL.
 VIDEO_SOURCE = 0
 
 # --- Files ---
