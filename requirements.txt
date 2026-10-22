@@ -1,3 +1,5 @@
-opencv-python>=4.9.0
-ultralytics>=8.2.0
-numpy>=1.26.0
+# Python 3.10 or newer (the code uses `str | None` type hints).
+# Tested with Python 3.12: opencv-python 5.0.0.93, numpy 2.5.4, ultralytics 8.4.183 (installs torch 2.14.1, CPU).
+opencv-python>=4.9,<6
+numpy>=1.26,<3
+ultralytics>=8.3,<9
