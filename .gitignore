@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# YOLO weights (downloaded automatically on first run) and Ultralytics output
+*.pt
+runs/
+
+# Per-camera data created by spot_marker.py
+parking_spots.json
+reference_frame.jpg
+
+# Test footage
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Local settings and secrets
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
